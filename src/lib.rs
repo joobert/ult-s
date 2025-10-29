@@ -120,9 +120,6 @@ pub fn quick_validate_install() -> bool {
     passed
 }
 
-extern "C" {
-	fn change_version_string(arg: u64, string: *const c_char);
-}
 pub fn nro_hook(info: &skyline::nro::NroInfo) {
     if info.module.isLoaded {
         return;
@@ -174,34 +171,6 @@ unsafe fn run_scene_update(_: &skyline::hooks::InlineCtx) {
     while !RUN.swap(false, Ordering::SeqCst) {
         skyline::nn::hid::GetNpadFullKeyState(DUMMY_BLOCK.as_mut_ptr() as _, &0);
     }
-}
-  
-#[skyline::hook(replace = change_version_string)]
-fn change_version_string_hook(arg: u64, string: *const c_char) {
-	let original_str = unsafe { skyline::from_c_str(string) };
-	if original_str.contains("Ver.") {
-        if Path::new("sd:/ultimate/mods/Ultimate S Arcropolis/").is_dir() {
-            let mut s_ver = match std::fs::read_to_string("sd:/ultimate/mods/Ultimate S Arcropolis/version.txt") {
-                Ok(version_value) => version_value.trim().to_string(),
-                Err(_) => {
-                    String::from("UNKNOWN")
-                }
-            };
-            let version_str = format!("{} / Ultimate S {}\0", original_str, s_ver);
-            call_original!(arg, skyline::c_str(&version_str))
-        } else {
-            let mut s_ver = match std::fs::read_to_string("sd:/ultimate/mods/Ultimate S Lite/version.txt") {
-                Ok(version_value) => version_value.trim().to_string(),
-                Err(_) => {
-                    String::from("UNKNOWN")
-                }
-            };
-            let version_str = format!("{} / Ultimate S {}\0", original_str, s_ver);
-            call_original!(arg, skyline::c_str(&version_str))
-        }
-	} else {
-		call_original!(arg, string)
-	}
 }
 
 
@@ -399,7 +368,6 @@ pub extern "C" fn main() {
                 vsync_count_thread,
         );
     }
-    skyline::install_hooks!(change_version_string_hook);
 	nro::add_hook(nro_hook).unwrap();
 
 
