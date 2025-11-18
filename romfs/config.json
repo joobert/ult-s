@@ -701,33 +701,19 @@
     "fighter/falco/model/arwing/c05/metamon_model.numatb": [
       "fighter/falco/model/arwing/c125/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c05/model.nuanmb": [
-      "fighter/falco/model/arwing/c125/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c05/model.nuhlpb": [
-      "fighter/falco/model/arwing/c125/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c05/model.numatb": [
-      "fighter/falco/model/arwing/c125/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c05/model.numdlb": [
-      "fighter/falco/model/arwing/c125/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c05/model.numshb": [
-      "fighter/falco/model/arwing/c125/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c05/model.nuanmb": ["fighter/falco/model/arwing/c125/model.nuanmb"],
+    "fighter/falco/model/arwing/c05/model.nuhlpb": ["fighter/falco/model/arwing/c125/model.nuhlpb"],
+    "fighter/falco/model/arwing/c05/model.numatb": ["fighter/falco/model/arwing/c125/model.numatb"],
+    "fighter/falco/model/arwing/c05/model.numdlb": ["fighter/falco/model/arwing/c125/model.numdlb"],
+    "fighter/falco/model/arwing/c05/model.numshb": ["fighter/falco/model/arwing/c125/model.numshb"],
     "fighter/falco/model/arwing/c05/model.numshexb": [
       "fighter/falco/model/arwing/c125/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c05/model.nusktb": [
-      "fighter/falco/model/arwing/c125/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c05/model.nusktb": ["fighter/falco/model/arwing/c125/model.nusktb"],
     "fighter/falco/model/arwing/c05/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c125/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c05/model.xmb": [
-      "fighter/falco/model/arwing/c125/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c05/model.xmb": ["fighter/falco/model/arwing/c125/model.xmb"],
     "fighter/falco/model/blaster/c05/dark_model.numatb": [
       "fighter/falco/model/blaster/c125/dark_model.numatb"
     ],
@@ -779,9 +765,7 @@
     "fighter/falco/model/blaster/c05/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c125/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c05/model.xmb": [
-      "fighter/falco/model/blaster/c125/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c05/model.xmb": ["fighter/falco/model/blaster/c125/model.xmb"],
     "fighter/falco/model/reticle/c05/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c125/alp_reticle_001_col.nutexb"
     ],
@@ -815,9 +799,7 @@
     "fighter/falco/model/reticle/c05/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c125/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c05/model.xmb": [
-      "fighter/falco/model/reticle/c125/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c05/model.xmb": ["fighter/falco/model/reticle/c125/model.xmb"],
     "fighter/falco/motion/arwing/c05/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c125/d04finallockon01.nuanmb"
     ],
@@ -848,9 +830,7 @@
     "fighter/falco/motion/arwing/c05/motion_list.bin": [
       "fighter/falco/motion/arwing/c125/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c05/update.prc": [
-      "fighter/falco/motion/arwing/c125/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c05/update.prc": ["fighter/falco/motion/arwing/c125/update.prc"],
     "fighter/falco/motion/arwingshot/c05/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c125/motion_list.bin"
     ],
@@ -866,9 +846,7 @@
     "fighter/falco/motion/blaster/c05/motion_list.bin": [
       "fighter/falco/motion/blaster/c125/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c05/update.prc": [
-      "fighter/falco/motion/blaster/c125/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c05/update.prc": ["fighter/falco/motion/blaster/c125/update.prc"],
     "fighter/falco/motion/illusion/c05/motion_list.bin": [
       "fighter/falco/motion/illusion/c125/motion_list.bin"
     ],
@@ -878,15 +856,9 @@
     "fighter/falco/motion/reticle/c05/motion_list.bin": [
       "fighter/falco/motion/reticle/c125/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c05.nus3audio": [
-      "sound/bank/fighter/se_falco_c125.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c05.nus3bank": [
-      "sound/bank/fighter/se_falco_c125.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c05.tonelabel": [
-      "sound/bank/fighter/se_falco_c125.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c05.nus3audio": ["sound/bank/fighter/se_falco_c125.nus3audio"],
+    "sound/bank/fighter/se_falco_c05.nus3bank": ["sound/bank/fighter/se_falco_c125.nus3bank"],
+    "sound/bank/fighter/se_falco_c05.tonelabel": ["sound/bank/fighter/se_falco_c125.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c05.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c125.nus3bank"
     ],
@@ -1157,33 +1129,19 @@
     "fighter/falco/model/arwing/c01/metamon_model.numatb": [
       "fighter/falco/model/arwing/c121/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c01/model.nuanmb": [
-      "fighter/falco/model/arwing/c121/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c01/model.nuhlpb": [
-      "fighter/falco/model/arwing/c121/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c01/model.numatb": [
-      "fighter/falco/model/arwing/c121/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c01/model.numdlb": [
-      "fighter/falco/model/arwing/c121/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c01/model.numshb": [
-      "fighter/falco/model/arwing/c121/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c01/model.nuanmb": ["fighter/falco/model/arwing/c121/model.nuanmb"],
+    "fighter/falco/model/arwing/c01/model.nuhlpb": ["fighter/falco/model/arwing/c121/model.nuhlpb"],
+    "fighter/falco/model/arwing/c01/model.numatb": ["fighter/falco/model/arwing/c121/model.numatb"],
+    "fighter/falco/model/arwing/c01/model.numdlb": ["fighter/falco/model/arwing/c121/model.numdlb"],
+    "fighter/falco/model/arwing/c01/model.numshb": ["fighter/falco/model/arwing/c121/model.numshb"],
     "fighter/falco/model/arwing/c01/model.numshexb": [
       "fighter/falco/model/arwing/c121/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c01/model.nusktb": [
-      "fighter/falco/model/arwing/c121/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c01/model.nusktb": ["fighter/falco/model/arwing/c121/model.nusktb"],
     "fighter/falco/model/arwing/c01/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c121/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c01/model.xmb": [
-      "fighter/falco/model/arwing/c121/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c01/model.xmb": ["fighter/falco/model/arwing/c121/model.xmb"],
     "fighter/falco/model/blaster/c01/dark_model.numatb": [
       "fighter/falco/model/blaster/c121/dark_model.numatb"
     ],
@@ -1235,9 +1193,7 @@
     "fighter/falco/model/blaster/c01/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c121/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c01/model.xmb": [
-      "fighter/falco/model/blaster/c121/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c01/model.xmb": ["fighter/falco/model/blaster/c121/model.xmb"],
     "fighter/falco/model/reticle/c01/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c121/alp_reticle_001_col.nutexb"
     ],
@@ -1271,9 +1227,7 @@
     "fighter/falco/model/reticle/c01/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c121/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c01/model.xmb": [
-      "fighter/falco/model/reticle/c121/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c01/model.xmb": ["fighter/falco/model/reticle/c121/model.xmb"],
     "fighter/falco/motion/arwing/c01/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c121/d04finallockon01.nuanmb"
     ],
@@ -1304,9 +1258,7 @@
     "fighter/falco/motion/arwing/c01/motion_list.bin": [
       "fighter/falco/motion/arwing/c121/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c01/update.prc": [
-      "fighter/falco/motion/arwing/c121/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c01/update.prc": ["fighter/falco/motion/arwing/c121/update.prc"],
     "fighter/falco/motion/arwingshot/c01/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c121/motion_list.bin"
     ],
@@ -1322,9 +1274,7 @@
     "fighter/falco/motion/blaster/c01/motion_list.bin": [
       "fighter/falco/motion/blaster/c121/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c01/update.prc": [
-      "fighter/falco/motion/blaster/c121/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c01/update.prc": ["fighter/falco/motion/blaster/c121/update.prc"],
     "fighter/falco/motion/illusion/c01/motion_list.bin": [
       "fighter/falco/motion/illusion/c121/motion_list.bin"
     ],
@@ -1334,15 +1284,9 @@
     "fighter/falco/motion/reticle/c01/motion_list.bin": [
       "fighter/falco/motion/reticle/c121/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c01.nus3audio": [
-      "sound/bank/fighter/se_falco_c121.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c01.nus3bank": [
-      "sound/bank/fighter/se_falco_c121.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c01.tonelabel": [
-      "sound/bank/fighter/se_falco_c121.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c01.nus3audio": ["sound/bank/fighter/se_falco_c121.nus3audio"],
+    "sound/bank/fighter/se_falco_c01.nus3bank": ["sound/bank/fighter/se_falco_c121.nus3bank"],
+    "sound/bank/fighter/se_falco_c01.tonelabel": ["sound/bank/fighter/se_falco_c121.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c01.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c121.nus3bank"
     ],
@@ -1613,33 +1557,19 @@
     "fighter/falco/model/arwing/c00/metamon_model.numatb": [
       "fighter/falco/model/arwing/c120/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c00/model.nuanmb": [
-      "fighter/falco/model/arwing/c120/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c00/model.nuhlpb": [
-      "fighter/falco/model/arwing/c120/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c00/model.numatb": [
-      "fighter/falco/model/arwing/c120/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c00/model.numdlb": [
-      "fighter/falco/model/arwing/c120/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c00/model.numshb": [
-      "fighter/falco/model/arwing/c120/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c00/model.nuanmb": ["fighter/falco/model/arwing/c120/model.nuanmb"],
+    "fighter/falco/model/arwing/c00/model.nuhlpb": ["fighter/falco/model/arwing/c120/model.nuhlpb"],
+    "fighter/falco/model/arwing/c00/model.numatb": ["fighter/falco/model/arwing/c120/model.numatb"],
+    "fighter/falco/model/arwing/c00/model.numdlb": ["fighter/falco/model/arwing/c120/model.numdlb"],
+    "fighter/falco/model/arwing/c00/model.numshb": ["fighter/falco/model/arwing/c120/model.numshb"],
     "fighter/falco/model/arwing/c00/model.numshexb": [
       "fighter/falco/model/arwing/c120/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c00/model.nusktb": [
-      "fighter/falco/model/arwing/c120/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c00/model.nusktb": ["fighter/falco/model/arwing/c120/model.nusktb"],
     "fighter/falco/model/arwing/c00/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c120/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c00/model.xmb": [
-      "fighter/falco/model/arwing/c120/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c00/model.xmb": ["fighter/falco/model/arwing/c120/model.xmb"],
     "fighter/falco/model/blaster/c00/dark_model.numatb": [
       "fighter/falco/model/blaster/c120/dark_model.numatb"
     ],
@@ -1691,9 +1621,7 @@
     "fighter/falco/model/blaster/c00/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c120/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c00/model.xmb": [
-      "fighter/falco/model/blaster/c120/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c00/model.xmb": ["fighter/falco/model/blaster/c120/model.xmb"],
     "fighter/falco/model/reticle/c00/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c120/alp_reticle_001_col.nutexb"
     ],
@@ -1727,9 +1655,7 @@
     "fighter/falco/model/reticle/c00/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c120/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c00/model.xmb": [
-      "fighter/falco/model/reticle/c120/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c00/model.xmb": ["fighter/falco/model/reticle/c120/model.xmb"],
     "fighter/falco/motion/arwing/c00/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c120/d04finallockon01.nuanmb"
     ],
@@ -1760,9 +1686,7 @@
     "fighter/falco/motion/arwing/c00/motion_list.bin": [
       "fighter/falco/motion/arwing/c120/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c00/update.prc": [
-      "fighter/falco/motion/arwing/c120/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c00/update.prc": ["fighter/falco/motion/arwing/c120/update.prc"],
     "fighter/falco/motion/arwingshot/c00/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c120/motion_list.bin"
     ],
@@ -1778,9 +1702,7 @@
     "fighter/falco/motion/blaster/c00/motion_list.bin": [
       "fighter/falco/motion/blaster/c120/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c00/update.prc": [
-      "fighter/falco/motion/blaster/c120/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c00/update.prc": ["fighter/falco/motion/blaster/c120/update.prc"],
     "fighter/falco/motion/illusion/c00/motion_list.bin": [
       "fighter/falco/motion/illusion/c120/motion_list.bin"
     ],
@@ -1790,15 +1712,9 @@
     "fighter/falco/motion/reticle/c00/motion_list.bin": [
       "fighter/falco/motion/reticle/c120/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c00.nus3audio": [
-      "sound/bank/fighter/se_falco_c120.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c00.nus3bank": [
-      "sound/bank/fighter/se_falco_c120.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c00.tonelabel": [
-      "sound/bank/fighter/se_falco_c120.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c00.nus3audio": ["sound/bank/fighter/se_falco_c120.nus3audio"],
+    "sound/bank/fighter/se_falco_c00.nus3bank": ["sound/bank/fighter/se_falco_c120.nus3bank"],
+    "sound/bank/fighter/se_falco_c00.tonelabel": ["sound/bank/fighter/se_falco_c120.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c00.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c120.nus3bank"
     ],
@@ -2069,33 +1985,19 @@
     "fighter/falco/model/arwing/c02/metamon_model.numatb": [
       "fighter/falco/model/arwing/c122/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c02/model.nuanmb": [
-      "fighter/falco/model/arwing/c122/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c02/model.nuhlpb": [
-      "fighter/falco/model/arwing/c122/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c02/model.numatb": [
-      "fighter/falco/model/arwing/c122/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c02/model.numdlb": [
-      "fighter/falco/model/arwing/c122/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c02/model.numshb": [
-      "fighter/falco/model/arwing/c122/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c02/model.nuanmb": ["fighter/falco/model/arwing/c122/model.nuanmb"],
+    "fighter/falco/model/arwing/c02/model.nuhlpb": ["fighter/falco/model/arwing/c122/model.nuhlpb"],
+    "fighter/falco/model/arwing/c02/model.numatb": ["fighter/falco/model/arwing/c122/model.numatb"],
+    "fighter/falco/model/arwing/c02/model.numdlb": ["fighter/falco/model/arwing/c122/model.numdlb"],
+    "fighter/falco/model/arwing/c02/model.numshb": ["fighter/falco/model/arwing/c122/model.numshb"],
     "fighter/falco/model/arwing/c02/model.numshexb": [
       "fighter/falco/model/arwing/c122/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c02/model.nusktb": [
-      "fighter/falco/model/arwing/c122/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c02/model.nusktb": ["fighter/falco/model/arwing/c122/model.nusktb"],
     "fighter/falco/model/arwing/c02/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c122/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c02/model.xmb": [
-      "fighter/falco/model/arwing/c122/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c02/model.xmb": ["fighter/falco/model/arwing/c122/model.xmb"],
     "fighter/falco/model/blaster/c02/dark_model.numatb": [
       "fighter/falco/model/blaster/c122/dark_model.numatb"
     ],
@@ -2147,9 +2049,7 @@
     "fighter/falco/model/blaster/c02/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c122/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c02/model.xmb": [
-      "fighter/falco/model/blaster/c122/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c02/model.xmb": ["fighter/falco/model/blaster/c122/model.xmb"],
     "fighter/falco/model/reticle/c02/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c122/alp_reticle_001_col.nutexb"
     ],
@@ -2183,9 +2083,7 @@
     "fighter/falco/model/reticle/c02/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c122/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c02/model.xmb": [
-      "fighter/falco/model/reticle/c122/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c02/model.xmb": ["fighter/falco/model/reticle/c122/model.xmb"],
     "fighter/falco/motion/arwing/c02/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c122/d04finallockon01.nuanmb"
     ],
@@ -2216,9 +2114,7 @@
     "fighter/falco/motion/arwing/c02/motion_list.bin": [
       "fighter/falco/motion/arwing/c122/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c02/update.prc": [
-      "fighter/falco/motion/arwing/c122/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c02/update.prc": ["fighter/falco/motion/arwing/c122/update.prc"],
     "fighter/falco/motion/arwingshot/c02/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c122/motion_list.bin"
     ],
@@ -2234,9 +2130,7 @@
     "fighter/falco/motion/blaster/c02/motion_list.bin": [
       "fighter/falco/motion/blaster/c122/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c02/update.prc": [
-      "fighter/falco/motion/blaster/c122/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c02/update.prc": ["fighter/falco/motion/blaster/c122/update.prc"],
     "fighter/falco/motion/illusion/c02/motion_list.bin": [
       "fighter/falco/motion/illusion/c122/motion_list.bin"
     ],
@@ -2246,15 +2140,9 @@
     "fighter/falco/motion/reticle/c02/motion_list.bin": [
       "fighter/falco/motion/reticle/c122/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c02.nus3audio": [
-      "sound/bank/fighter/se_falco_c122.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c02.nus3bank": [
-      "sound/bank/fighter/se_falco_c122.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c02.tonelabel": [
-      "sound/bank/fighter/se_falco_c122.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c02.nus3audio": ["sound/bank/fighter/se_falco_c122.nus3audio"],
+    "sound/bank/fighter/se_falco_c02.nus3bank": ["sound/bank/fighter/se_falco_c122.nus3bank"],
+    "sound/bank/fighter/se_falco_c02.tonelabel": ["sound/bank/fighter/se_falco_c122.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c02.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c122.nus3bank"
     ],
@@ -2525,33 +2413,19 @@
     "fighter/falco/model/arwing/c03/metamon_model.numatb": [
       "fighter/falco/model/arwing/c123/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c03/model.nuanmb": [
-      "fighter/falco/model/arwing/c123/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c03/model.nuhlpb": [
-      "fighter/falco/model/arwing/c123/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c03/model.numatb": [
-      "fighter/falco/model/arwing/c123/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c03/model.numdlb": [
-      "fighter/falco/model/arwing/c123/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c03/model.numshb": [
-      "fighter/falco/model/arwing/c123/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c03/model.nuanmb": ["fighter/falco/model/arwing/c123/model.nuanmb"],
+    "fighter/falco/model/arwing/c03/model.nuhlpb": ["fighter/falco/model/arwing/c123/model.nuhlpb"],
+    "fighter/falco/model/arwing/c03/model.numatb": ["fighter/falco/model/arwing/c123/model.numatb"],
+    "fighter/falco/model/arwing/c03/model.numdlb": ["fighter/falco/model/arwing/c123/model.numdlb"],
+    "fighter/falco/model/arwing/c03/model.numshb": ["fighter/falco/model/arwing/c123/model.numshb"],
     "fighter/falco/model/arwing/c03/model.numshexb": [
       "fighter/falco/model/arwing/c123/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c03/model.nusktb": [
-      "fighter/falco/model/arwing/c123/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c03/model.nusktb": ["fighter/falco/model/arwing/c123/model.nusktb"],
     "fighter/falco/model/arwing/c03/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c123/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c03/model.xmb": [
-      "fighter/falco/model/arwing/c123/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c03/model.xmb": ["fighter/falco/model/arwing/c123/model.xmb"],
     "fighter/falco/model/blaster/c03/dark_model.numatb": [
       "fighter/falco/model/blaster/c123/dark_model.numatb"
     ],
@@ -2603,9 +2477,7 @@
     "fighter/falco/model/blaster/c03/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c123/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c03/model.xmb": [
-      "fighter/falco/model/blaster/c123/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c03/model.xmb": ["fighter/falco/model/blaster/c123/model.xmb"],
     "fighter/falco/model/reticle/c03/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c123/alp_reticle_001_col.nutexb"
     ],
@@ -2639,9 +2511,7 @@
     "fighter/falco/model/reticle/c03/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c123/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c03/model.xmb": [
-      "fighter/falco/model/reticle/c123/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c03/model.xmb": ["fighter/falco/model/reticle/c123/model.xmb"],
     "fighter/falco/motion/arwing/c03/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c123/d04finallockon01.nuanmb"
     ],
@@ -2672,9 +2542,7 @@
     "fighter/falco/motion/arwing/c03/motion_list.bin": [
       "fighter/falco/motion/arwing/c123/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c03/update.prc": [
-      "fighter/falco/motion/arwing/c123/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c03/update.prc": ["fighter/falco/motion/arwing/c123/update.prc"],
     "fighter/falco/motion/arwingshot/c03/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c123/motion_list.bin"
     ],
@@ -2690,9 +2558,7 @@
     "fighter/falco/motion/blaster/c03/motion_list.bin": [
       "fighter/falco/motion/blaster/c123/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c03/update.prc": [
-      "fighter/falco/motion/blaster/c123/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c03/update.prc": ["fighter/falco/motion/blaster/c123/update.prc"],
     "fighter/falco/motion/illusion/c03/motion_list.bin": [
       "fighter/falco/motion/illusion/c123/motion_list.bin"
     ],
@@ -2702,15 +2568,9 @@
     "fighter/falco/motion/reticle/c03/motion_list.bin": [
       "fighter/falco/motion/reticle/c123/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c03.nus3audio": [
-      "sound/bank/fighter/se_falco_c123.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c03.nus3bank": [
-      "sound/bank/fighter/se_falco_c123.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c03.tonelabel": [
-      "sound/bank/fighter/se_falco_c123.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c03.nus3audio": ["sound/bank/fighter/se_falco_c123.nus3audio"],
+    "sound/bank/fighter/se_falco_c03.nus3bank": ["sound/bank/fighter/se_falco_c123.nus3bank"],
+    "sound/bank/fighter/se_falco_c03.tonelabel": ["sound/bank/fighter/se_falco_c123.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c03.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c123.nus3bank"
     ],
@@ -2981,33 +2841,19 @@
     "fighter/falco/model/arwing/c04/metamon_model.numatb": [
       "fighter/falco/model/arwing/c124/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c04/model.nuanmb": [
-      "fighter/falco/model/arwing/c124/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c04/model.nuhlpb": [
-      "fighter/falco/model/arwing/c124/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c04/model.numatb": [
-      "fighter/falco/model/arwing/c124/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c04/model.numdlb": [
-      "fighter/falco/model/arwing/c124/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c04/model.numshb": [
-      "fighter/falco/model/arwing/c124/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c04/model.nuanmb": ["fighter/falco/model/arwing/c124/model.nuanmb"],
+    "fighter/falco/model/arwing/c04/model.nuhlpb": ["fighter/falco/model/arwing/c124/model.nuhlpb"],
+    "fighter/falco/model/arwing/c04/model.numatb": ["fighter/falco/model/arwing/c124/model.numatb"],
+    "fighter/falco/model/arwing/c04/model.numdlb": ["fighter/falco/model/arwing/c124/model.numdlb"],
+    "fighter/falco/model/arwing/c04/model.numshb": ["fighter/falco/model/arwing/c124/model.numshb"],
     "fighter/falco/model/arwing/c04/model.numshexb": [
       "fighter/falco/model/arwing/c124/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c04/model.nusktb": [
-      "fighter/falco/model/arwing/c124/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c04/model.nusktb": ["fighter/falco/model/arwing/c124/model.nusktb"],
     "fighter/falco/model/arwing/c04/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c124/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c04/model.xmb": [
-      "fighter/falco/model/arwing/c124/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c04/model.xmb": ["fighter/falco/model/arwing/c124/model.xmb"],
     "fighter/falco/model/blaster/c04/dark_model.numatb": [
       "fighter/falco/model/blaster/c124/dark_model.numatb"
     ],
@@ -3059,9 +2905,7 @@
     "fighter/falco/model/blaster/c04/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c124/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c04/model.xmb": [
-      "fighter/falco/model/blaster/c124/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c04/model.xmb": ["fighter/falco/model/blaster/c124/model.xmb"],
     "fighter/falco/model/reticle/c04/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c124/alp_reticle_001_col.nutexb"
     ],
@@ -3095,9 +2939,7 @@
     "fighter/falco/model/reticle/c04/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c124/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c04/model.xmb": [
-      "fighter/falco/model/reticle/c124/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c04/model.xmb": ["fighter/falco/model/reticle/c124/model.xmb"],
     "fighter/falco/motion/arwing/c04/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c124/d04finallockon01.nuanmb"
     ],
@@ -3128,9 +2970,7 @@
     "fighter/falco/motion/arwing/c04/motion_list.bin": [
       "fighter/falco/motion/arwing/c124/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c04/update.prc": [
-      "fighter/falco/motion/arwing/c124/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c04/update.prc": ["fighter/falco/motion/arwing/c124/update.prc"],
     "fighter/falco/motion/arwingshot/c04/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c124/motion_list.bin"
     ],
@@ -3146,9 +2986,7 @@
     "fighter/falco/motion/blaster/c04/motion_list.bin": [
       "fighter/falco/motion/blaster/c124/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c04/update.prc": [
-      "fighter/falco/motion/blaster/c124/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c04/update.prc": ["fighter/falco/motion/blaster/c124/update.prc"],
     "fighter/falco/motion/illusion/c04/motion_list.bin": [
       "fighter/falco/motion/illusion/c124/motion_list.bin"
     ],
@@ -3158,15 +2996,9 @@
     "fighter/falco/motion/reticle/c04/motion_list.bin": [
       "fighter/falco/motion/reticle/c124/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c04.nus3audio": [
-      "sound/bank/fighter/se_falco_c124.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c04.nus3bank": [
-      "sound/bank/fighter/se_falco_c124.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c04.tonelabel": [
-      "sound/bank/fighter/se_falco_c124.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c04.nus3audio": ["sound/bank/fighter/se_falco_c124.nus3audio"],
+    "sound/bank/fighter/se_falco_c04.nus3bank": ["sound/bank/fighter/se_falco_c124.nus3bank"],
+    "sound/bank/fighter/se_falco_c04.tonelabel": ["sound/bank/fighter/se_falco_c124.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c04.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c124.nus3bank"
     ],
@@ -3437,33 +3269,19 @@
     "fighter/falco/model/arwing/c06/metamon_model.numatb": [
       "fighter/falco/model/arwing/c126/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c06/model.nuanmb": [
-      "fighter/falco/model/arwing/c126/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c06/model.nuhlpb": [
-      "fighter/falco/model/arwing/c126/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c06/model.numatb": [
-      "fighter/falco/model/arwing/c126/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c06/model.numdlb": [
-      "fighter/falco/model/arwing/c126/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c06/model.numshb": [
-      "fighter/falco/model/arwing/c126/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c06/model.nuanmb": ["fighter/falco/model/arwing/c126/model.nuanmb"],
+    "fighter/falco/model/arwing/c06/model.nuhlpb": ["fighter/falco/model/arwing/c126/model.nuhlpb"],
+    "fighter/falco/model/arwing/c06/model.numatb": ["fighter/falco/model/arwing/c126/model.numatb"],
+    "fighter/falco/model/arwing/c06/model.numdlb": ["fighter/falco/model/arwing/c126/model.numdlb"],
+    "fighter/falco/model/arwing/c06/model.numshb": ["fighter/falco/model/arwing/c126/model.numshb"],
     "fighter/falco/model/arwing/c06/model.numshexb": [
       "fighter/falco/model/arwing/c126/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c06/model.nusktb": [
-      "fighter/falco/model/arwing/c126/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c06/model.nusktb": ["fighter/falco/model/arwing/c126/model.nusktb"],
     "fighter/falco/model/arwing/c06/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c126/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c06/model.xmb": [
-      "fighter/falco/model/arwing/c126/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c06/model.xmb": ["fighter/falco/model/arwing/c126/model.xmb"],
     "fighter/falco/model/blaster/c06/dark_model.numatb": [
       "fighter/falco/model/blaster/c126/dark_model.numatb"
     ],
@@ -3515,9 +3333,7 @@
     "fighter/falco/model/blaster/c06/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c126/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c06/model.xmb": [
-      "fighter/falco/model/blaster/c126/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c06/model.xmb": ["fighter/falco/model/blaster/c126/model.xmb"],
     "fighter/falco/model/reticle/c06/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c126/alp_reticle_001_col.nutexb"
     ],
@@ -3551,9 +3367,7 @@
     "fighter/falco/model/reticle/c06/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c126/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c06/model.xmb": [
-      "fighter/falco/model/reticle/c126/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c06/model.xmb": ["fighter/falco/model/reticle/c126/model.xmb"],
     "fighter/falco/motion/arwing/c06/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c126/d04finallockon01.nuanmb"
     ],
@@ -3584,9 +3398,7 @@
     "fighter/falco/motion/arwing/c06/motion_list.bin": [
       "fighter/falco/motion/arwing/c126/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c06/update.prc": [
-      "fighter/falco/motion/arwing/c126/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c06/update.prc": ["fighter/falco/motion/arwing/c126/update.prc"],
     "fighter/falco/motion/arwingshot/c06/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c126/motion_list.bin"
     ],
@@ -3602,9 +3414,7 @@
     "fighter/falco/motion/blaster/c06/motion_list.bin": [
       "fighter/falco/motion/blaster/c126/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c06/update.prc": [
-      "fighter/falco/motion/blaster/c126/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c06/update.prc": ["fighter/falco/motion/blaster/c126/update.prc"],
     "fighter/falco/motion/illusion/c06/motion_list.bin": [
       "fighter/falco/motion/illusion/c126/motion_list.bin"
     ],
@@ -3614,15 +3424,9 @@
     "fighter/falco/motion/reticle/c06/motion_list.bin": [
       "fighter/falco/motion/reticle/c126/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c06.nus3audio": [
-      "sound/bank/fighter/se_falco_c126.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c06.nus3bank": [
-      "sound/bank/fighter/se_falco_c126.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c06.tonelabel": [
-      "sound/bank/fighter/se_falco_c126.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c06.nus3audio": ["sound/bank/fighter/se_falco_c126.nus3audio"],
+    "sound/bank/fighter/se_falco_c06.nus3bank": ["sound/bank/fighter/se_falco_c126.nus3bank"],
+    "sound/bank/fighter/se_falco_c06.tonelabel": ["sound/bank/fighter/se_falco_c126.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c06.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c126.nus3bank"
     ],
@@ -3893,33 +3697,19 @@
     "fighter/falco/model/arwing/c07/metamon_model.numatb": [
       "fighter/falco/model/arwing/c127/metamon_model.numatb"
     ],
-    "fighter/falco/model/arwing/c07/model.nuanmb": [
-      "fighter/falco/model/arwing/c127/model.nuanmb"
-    ],
-    "fighter/falco/model/arwing/c07/model.nuhlpb": [
-      "fighter/falco/model/arwing/c127/model.nuhlpb"
-    ],
-    "fighter/falco/model/arwing/c07/model.numatb": [
-      "fighter/falco/model/arwing/c127/model.numatb"
-    ],
-    "fighter/falco/model/arwing/c07/model.numdlb": [
-      "fighter/falco/model/arwing/c127/model.numdlb"
-    ],
-    "fighter/falco/model/arwing/c07/model.numshb": [
-      "fighter/falco/model/arwing/c127/model.numshb"
-    ],
+    "fighter/falco/model/arwing/c07/model.nuanmb": ["fighter/falco/model/arwing/c127/model.nuanmb"],
+    "fighter/falco/model/arwing/c07/model.nuhlpb": ["fighter/falco/model/arwing/c127/model.nuhlpb"],
+    "fighter/falco/model/arwing/c07/model.numatb": ["fighter/falco/model/arwing/c127/model.numatb"],
+    "fighter/falco/model/arwing/c07/model.numdlb": ["fighter/falco/model/arwing/c127/model.numdlb"],
+    "fighter/falco/model/arwing/c07/model.numshb": ["fighter/falco/model/arwing/c127/model.numshb"],
     "fighter/falco/model/arwing/c07/model.numshexb": [
       "fighter/falco/model/arwing/c127/model.numshexb"
     ],
-    "fighter/falco/model/arwing/c07/model.nusktb": [
-      "fighter/falco/model/arwing/c127/model.nusktb"
-    ],
+    "fighter/falco/model/arwing/c07/model.nusktb": ["fighter/falco/model/arwing/c127/model.nusktb"],
     "fighter/falco/model/arwing/c07/model.nusrcmdlb": [
       "fighter/falco/model/arwing/c127/model.nusrcmdlb"
     ],
-    "fighter/falco/model/arwing/c07/model.xmb": [
-      "fighter/falco/model/arwing/c127/model.xmb"
-    ],
+    "fighter/falco/model/arwing/c07/model.xmb": ["fighter/falco/model/arwing/c127/model.xmb"],
     "fighter/falco/model/blaster/c07/dark_model.numatb": [
       "fighter/falco/model/blaster/c127/dark_model.numatb"
     ],
@@ -3971,9 +3761,7 @@
     "fighter/falco/model/blaster/c07/model.nusrcmdlb": [
       "fighter/falco/model/blaster/c127/model.nusrcmdlb"
     ],
-    "fighter/falco/model/blaster/c07/model.xmb": [
-      "fighter/falco/model/blaster/c127/model.xmb"
-    ],
+    "fighter/falco/model/blaster/c07/model.xmb": ["fighter/falco/model/blaster/c127/model.xmb"],
     "fighter/falco/model/reticle/c07/alp_reticle_001_col.nutexb": [
       "fighter/falco/model/reticle/c127/alp_reticle_001_col.nutexb"
     ],
@@ -4007,9 +3795,7 @@
     "fighter/falco/model/reticle/c07/model.nusrcmdlb": [
       "fighter/falco/model/reticle/c127/model.nusrcmdlb"
     ],
-    "fighter/falco/model/reticle/c07/model.xmb": [
-      "fighter/falco/model/reticle/c127/model.xmb"
-    ],
+    "fighter/falco/model/reticle/c07/model.xmb": ["fighter/falco/model/reticle/c127/model.xmb"],
     "fighter/falco/motion/arwing/c07/d04finallockon01.nuanmb": [
       "fighter/falco/motion/arwing/c127/d04finallockon01.nuanmb"
     ],
@@ -4040,9 +3826,7 @@
     "fighter/falco/motion/arwing/c07/motion_list.bin": [
       "fighter/falco/motion/arwing/c127/motion_list.bin"
     ],
-    "fighter/falco/motion/arwing/c07/update.prc": [
-      "fighter/falco/motion/arwing/c127/update.prc"
-    ],
+    "fighter/falco/motion/arwing/c07/update.prc": ["fighter/falco/motion/arwing/c127/update.prc"],
     "fighter/falco/motion/arwingshot/c07/motion_list.bin": [
       "fighter/falco/motion/arwingshot/c127/motion_list.bin"
     ],
@@ -4058,9 +3842,7 @@
     "fighter/falco/motion/blaster/c07/motion_list.bin": [
       "fighter/falco/motion/blaster/c127/motion_list.bin"
     ],
-    "fighter/falco/motion/blaster/c07/update.prc": [
-      "fighter/falco/motion/blaster/c127/update.prc"
-    ],
+    "fighter/falco/motion/blaster/c07/update.prc": ["fighter/falco/motion/blaster/c127/update.prc"],
     "fighter/falco/motion/illusion/c07/motion_list.bin": [
       "fighter/falco/motion/illusion/c127/motion_list.bin"
     ],
@@ -4070,15 +3852,9 @@
     "fighter/falco/motion/reticle/c07/motion_list.bin": [
       "fighter/falco/motion/reticle/c127/motion_list.bin"
     ],
-    "sound/bank/fighter/se_falco_c07.nus3audio": [
-      "sound/bank/fighter/se_falco_c127.nus3audio"
-    ],
-    "sound/bank/fighter/se_falco_c07.nus3bank": [
-      "sound/bank/fighter/se_falco_c127.nus3bank"
-    ],
-    "sound/bank/fighter/se_falco_c07.tonelabel": [
-      "sound/bank/fighter/se_falco_c127.tonelabel"
-    ],
+    "sound/bank/fighter/se_falco_c07.nus3audio": ["sound/bank/fighter/se_falco_c127.nus3audio"],
+    "sound/bank/fighter/se_falco_c07.nus3bank": ["sound/bank/fighter/se_falco_c127.nus3bank"],
+    "sound/bank/fighter/se_falco_c07.tonelabel": ["sound/bank/fighter/se_falco_c127.tonelabel"],
     "sound/bank/fighter_voice/vc_falco_c07.nus3bank": [
       "sound/bank/fighter_voice/vc_falco_c127.nus3bank"
     ],
@@ -34689,16 +34465,6 @@
     ],
     "fighter/murabito/movie/c127": [],
 
-
-
-
-
-
-
-
-
-
-
     "fighter/pikmin/c120": [
       "fighter/pikmin/model/b/c120/dark_model.numatb",
       "fighter/pikmin/model/b/c120/light_model.numatb",
@@ -46613,30 +46379,14 @@
       "fighter/diddy/model/gun/c07/def_radio_001_col.nutexb",
       "fighter/diddy/model/gun/c07/def_radio_001_nor.nutexb"
     ],
-    "fighter/rosetta/c00": [
-      "fighter/rosetta/motion/tico/c00/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c01": [
-      "fighter/rosetta/motion/tico/c01/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c02": [
-      "fighter/rosetta/motion/tico/c02/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c03": [
-      "fighter/rosetta/motion/tico/c03/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c04": [
-      "fighter/rosetta/motion/tico/c04/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c05": [
-      "fighter/rosetta/motion/tico/c05/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c06": [
-      "fighter/rosetta/motion/tico/c06/d00specialnexplode.nuanmb"
-    ],
-    "fighter/rosetta/c07": [
-      "fighter/rosetta/motion/tico/c07/d00specialnexplode.nuanmb"
-    ],
+    "fighter/rosetta/c00": ["fighter/rosetta/motion/tico/c00/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c01": ["fighter/rosetta/motion/tico/c01/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c02": ["fighter/rosetta/motion/tico/c02/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c03": ["fighter/rosetta/motion/tico/c03/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c04": ["fighter/rosetta/motion/tico/c04/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c05": ["fighter/rosetta/motion/tico/c05/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c06": ["fighter/rosetta/motion/tico/c06/d00specialnexplode.nuanmb"],
+    "fighter/rosetta/c07": ["fighter/rosetta/motion/tico/c07/d00specialnexplode.nuanmb"],
     "fighter/inkling/c00": [
       "fighter/inkling/motion/body/c00/d02specialhidown.nuanmb",
       "fighter/inkling/motion/squid/c00/d02specialhidown.nuanmb"
@@ -46674,9 +46424,7 @@
       "fighter/miiswordsman/motion/body/c00/c01attacks3hi.nuanmb",
       "fighter/miiswordsman/motion/body/c00/c01attacks3lw.nuanmb"
     ],
-    "fighter/miifighter/c00": [
-      "fighter/miifighter/motion/body/c00/c05attackairlwbounce.nuanmb"
-    ],
+    "fighter/miifighter/c00": ["fighter/miifighter/motion/body/c00/c05attackairlwbounce.nuanmb"],
     "fighter/snake/c00": [
       "fighter/snake/motion/body/c00/e01catchwalkf.nuanmb",
       "fighter/snake/motion/body/c00/e01catchwalkb.nuanmb",
@@ -46957,30 +46705,14 @@
       "fighter/link/motion/bow/c07/c05attackairfb.nuanmb",
       "fighter/link/motion/bow/c07/c05attackairhib.nuanmb"
     ],
-    "fighter/reflet/c00": [
-      "fighter/reflet/motion/body/c00/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c01": [
-      "fighter/reflet/motion/body/c01/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c02": [
-      "fighter/reflet/motion/body/c02/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c03": [
-      "fighter/reflet/motion/body/c03/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c04": [
-      "fighter/reflet/motion/body/c04/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c05": [
-      "fighter/reflet/motion/body/c05/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c06": [
-      "fighter/reflet/motion/body/c06/d02specialhi.nuanmb"
-    ],
-    "fighter/reflet/c07": [
-      "fighter/reflet/motion/body/c07/d02specialhi.nuanmb"
-    ],
+    "fighter/reflet/c00": ["fighter/reflet/motion/body/c00/d02specialhi.nuanmb"],
+    "fighter/reflet/c01": ["fighter/reflet/motion/body/c01/d02specialhi.nuanmb"],
+    "fighter/reflet/c02": ["fighter/reflet/motion/body/c02/d02specialhi.nuanmb"],
+    "fighter/reflet/c03": ["fighter/reflet/motion/body/c03/d02specialhi.nuanmb"],
+    "fighter/reflet/c04": ["fighter/reflet/motion/body/c04/d02specialhi.nuanmb"],
+    "fighter/reflet/c05": ["fighter/reflet/motion/body/c05/d02specialhi.nuanmb"],
+    "fighter/reflet/c06": ["fighter/reflet/motion/body/c06/d02specialhi.nuanmb"],
+    "fighter/reflet/c07": ["fighter/reflet/motion/body/c07/d02specialhi.nuanmb"],
     "fighter/shizue/c00": [
       "fighter/shizue/model/pot/c00/def_furniture_001_col.nutexb",
       "fighter/shizue/model/pot/c00/def_furniture_001_nor.nutexb",
@@ -47549,54 +47281,22 @@
       "fighter/shizue/model/pot/c07/metal_trafficsign_001_nor.nutexb",
       "fighter/shizue/model/pot/c07/metal_trafficsign_001_prm.nutexb"
     ],
-    "fighter/mario/c00": [
-      "fighter/mario/motion/body/c00/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c01": [
-      "fighter/mario/motion/body/c01/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c02": [
-      "fighter/mario/motion/body/c02/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c03": [
-      "fighter/mario/motion/body/c03/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c04": [
-      "fighter/mario/motion/body/c04/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c05": [
-      "fighter/mario/motion/body/c05/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c06": [
-      "fighter/mario/motion/body/c06/a02runmax.nuanmb"
-    ],
-    "fighter/mario/c07": [
-      "fighter/mario/motion/body/c07/a02runmax.nuanmb"
-    ],
-    "fighter/trail/c00": [
-      "fighter/trail/motion/body/c00/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c01": [
-      "fighter/trail/motion/body/c01/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c02": [
-      "fighter/trail/motion/body/c02/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c03": [
-      "fighter/trail/motion/body/c03/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c04": [
-      "fighter/trail/motion/body/c04/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c05": [
-      "fighter/trail/motion/body/c05/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c06": [
-      "fighter/trail/motion/body/c06/d00specialinput.nuanmb"
-    ],
-    "fighter/trail/c07": [
-      "fighter/trail/motion/body/c07/d00specialinput.nuanmb"
-    ],
+    "fighter/mario/c00": ["fighter/mario/motion/body/c00/a02runmax.nuanmb"],
+    "fighter/mario/c01": ["fighter/mario/motion/body/c01/a02runmax.nuanmb"],
+    "fighter/mario/c02": ["fighter/mario/motion/body/c02/a02runmax.nuanmb"],
+    "fighter/mario/c03": ["fighter/mario/motion/body/c03/a02runmax.nuanmb"],
+    "fighter/mario/c04": ["fighter/mario/motion/body/c04/a02runmax.nuanmb"],
+    "fighter/mario/c05": ["fighter/mario/motion/body/c05/a02runmax.nuanmb"],
+    "fighter/mario/c06": ["fighter/mario/motion/body/c06/a02runmax.nuanmb"],
+    "fighter/mario/c07": ["fighter/mario/motion/body/c07/a02runmax.nuanmb"],
+    "fighter/trail/c00": ["fighter/trail/motion/body/c00/d00specialinput.nuanmb"],
+    "fighter/trail/c01": ["fighter/trail/motion/body/c01/d00specialinput.nuanmb"],
+    "fighter/trail/c02": ["fighter/trail/motion/body/c02/d00specialinput.nuanmb"],
+    "fighter/trail/c03": ["fighter/trail/motion/body/c03/d00specialinput.nuanmb"],
+    "fighter/trail/c04": ["fighter/trail/motion/body/c04/d00specialinput.nuanmb"],
+    "fighter/trail/c05": ["fighter/trail/motion/body/c05/d00specialinput.nuanmb"],
+    "fighter/trail/c06": ["fighter/trail/motion/body/c06/d00specialinput.nuanmb"],
+    "fighter/trail/c07": ["fighter/trail/motion/body/c07/d00specialinput.nuanmb"],
     "fighter/mariod/c00": [
       "fighter/mariod/motion/body/c00/d02specialhi2.nuanmb",
       "fighter/mariod/motion/body/c00/d02specialhilanding.nuanmb",
@@ -47685,30 +47385,14 @@
       "fighter/murabito/motion/body/c07/d00specialn2fail.nuanmb",
       "fighter/murabito/motion/body/c07/d00specialn3.nuanmb"
     ],
-    "fighter/sheik/c00": [
-      "fighter/sheik/motion/body/c00/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c01": [
-      "fighter/sheik/motion/body/c01/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c02": [
-      "fighter/sheik/motion/body/c02/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c03": [
-      "fighter/sheik/motion/body/c03/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c04": [
-      "fighter/sheik/motion/body/c04/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c05": [
-      "fighter/sheik/motion/body/c05/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c06": [
-      "fighter/sheik/motion/body/c06/d00specialinput.nuanmb"
-    ],
-    "fighter/sheik/c07": [
-      "fighter/sheik/motion/body/c07/d00specialinput.nuanmb"
-    ],
+    "fighter/sheik/c00": ["fighter/sheik/motion/body/c00/d00specialinput.nuanmb"],
+    "fighter/sheik/c01": ["fighter/sheik/motion/body/c01/d00specialinput.nuanmb"],
+    "fighter/sheik/c02": ["fighter/sheik/motion/body/c02/d00specialinput.nuanmb"],
+    "fighter/sheik/c03": ["fighter/sheik/motion/body/c03/d00specialinput.nuanmb"],
+    "fighter/sheik/c04": ["fighter/sheik/motion/body/c04/d00specialinput.nuanmb"],
+    "fighter/sheik/c05": ["fighter/sheik/motion/body/c05/d00specialinput.nuanmb"],
+    "fighter/sheik/c06": ["fighter/sheik/motion/body/c06/d00specialinput.nuanmb"],
+    "fighter/sheik/c07": ["fighter/sheik/motion/body/c07/d00specialinput.nuanmb"],
     "fighter/toonlink/c00": [
       "fighter/toonlink/motion/bow/c00/c03attacks4s.nuanmb",
       "fighter/toonlink/motion/bow/c00/d02specialairhi.nuanmb"
@@ -48175,30 +47859,14 @@
       "fighter/wario/motion/counter/c07/motion_list.bin",
       "fighter/wario/motion/counter/c07/update.prc"
     ],
-    "fighter/roy/c00": [
-      "fighter/roy/motion/body/c00/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c01": [
-      "fighter/roy/motion/body/c01/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c02": [
-      "fighter/roy/motion/body/c02/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c03": [
-      "fighter/roy/motion/body/c03/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c04": [
-      "fighter/roy/motion/body/c04/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c05": [
-      "fighter/roy/motion/body/c05/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c06": [
-      "fighter/roy/motion/body/c06/c00attackdash2.nuanmb"
-    ],
-    "fighter/roy/c07": [
-      "fighter/roy/motion/body/c07/c00attackdash2.nuanmb"
-    ],
+    "fighter/roy/c00": ["fighter/roy/motion/body/c00/c00attackdash2.nuanmb"],
+    "fighter/roy/c01": ["fighter/roy/motion/body/c01/c00attackdash2.nuanmb"],
+    "fighter/roy/c02": ["fighter/roy/motion/body/c02/c00attackdash2.nuanmb"],
+    "fighter/roy/c03": ["fighter/roy/motion/body/c03/c00attackdash2.nuanmb"],
+    "fighter/roy/c04": ["fighter/roy/motion/body/c04/c00attackdash2.nuanmb"],
+    "fighter/roy/c05": ["fighter/roy/motion/body/c05/c00attackdash2.nuanmb"],
+    "fighter/roy/c06": ["fighter/roy/motion/body/c06/c00attackdash2.nuanmb"],
+    "fighter/roy/c07": ["fighter/roy/motion/body/c07/c00attackdash2.nuanmb"],
     "fighter/chrom/c00": [
       "fighter/chrom/motion/body/c00/c00attack12.nuanmb",
       "fighter/chrom/motion/body/c00/c01attacks3hi.nuanmb",
@@ -48431,30 +48099,14 @@
       "fighter/kirby/model/finalcutter/c07/def_wheel_001_col.nutexb",
       "fighter/kirby/motion/finalcutter/c07/d02specialhi5.nuanmb"
     ],
-    "fighter/simon/c00": [
-      "fighter/simon/motion/whip/c00/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c01": [
-      "fighter/simon/motion/whip/c01/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c02": [
-      "fighter/simon/motion/whip/c02/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c03": [
-      "fighter/simon/motion/whip/c03/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c04": [
-      "fighter/simon/motion/whip/c04/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c05": [
-      "fighter/simon/motion/whip/c05/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c06": [
-      "fighter/simon/motion/whip/c06/c02attacklw3.nuanmb"
-    ],
-    "fighter/simon/c07": [
-      "fighter/simon/motion/whip/c07/c02attacklw3.nuanmb"
-    ],
+    "fighter/simon/c00": ["fighter/simon/motion/whip/c00/c02attacklw3.nuanmb"],
+    "fighter/simon/c01": ["fighter/simon/motion/whip/c01/c02attacklw3.nuanmb"],
+    "fighter/simon/c02": ["fighter/simon/motion/whip/c02/c02attacklw3.nuanmb"],
+    "fighter/simon/c03": ["fighter/simon/motion/whip/c03/c02attacklw3.nuanmb"],
+    "fighter/simon/c04": ["fighter/simon/motion/whip/c04/c02attacklw3.nuanmb"],
+    "fighter/simon/c05": ["fighter/simon/motion/whip/c05/c02attacklw3.nuanmb"],
+    "fighter/simon/c06": ["fighter/simon/motion/whip/c06/c02attacklw3.nuanmb"],
+    "fighter/simon/c07": ["fighter/simon/motion/whip/c07/c02attacklw3.nuanmb"],
     "fighter/mariod/c120": [
       "fighter/mariod/model/body/c120/alp_mario_001_col.nutexb",
       "fighter/mariod/model/body/c120/alp_mario_001_nor.nutexb",
@@ -56318,6 +55970,7 @@
       "fighter/edge/motion/body/c120/d00specialn2.nuanmb",
       "fighter/edge/motion/body/c120/d00specialncancel.nuanmb",
       "fighter/edge/motion/body/c120/d00specialnstart.nuanmb",
+      "fighter/edge/motion/body/c120/d00specialnwalk.nuanmb",
       "fighter/edge/motion/body/c120/d01specialairs.nuanmb",
       "fighter/edge/motion/body/c120/d01specialairshold.nuanmb",
       "fighter/edge/motion/body/c120/d01specialairsstart.nuanmb",
@@ -57161,12 +56814,11 @@
       "camera/fighter/edge/c120/j02win2.nuanmb",
       "camera/fighter/edge/c120/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c120": [
-      "prebuilt:/movie/fighter/edge/c120/final_00.h264"
-    ],
+    "fighter/edge/movie/c120": ["prebuilt:/movie/fighter/edge/c120/final_00.h264"],
     "fighter/edge/result/c120": [],
     "fighter/edge/c121": [
       "effect/fighter/edge/ef_edge_c121.eff",
+      "fighter/edge/motion/body/c121/d00specialnwalk.nuanmb",
       "fighter/edge/model/apple/c121/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c121/dark_model.numatb",
       "fighter/edge/model/apple/c121/light_model.numatb",
@@ -57742,12 +57394,11 @@
       "camera/fighter/edge/c121/j02win2.nuanmb",
       "camera/fighter/edge/c121/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c121": [
-      "prebuilt:/movie/fighter/edge/c121/final_00.h264"
-    ],
+    "fighter/edge/movie/c121": ["prebuilt:/movie/fighter/edge/c121/final_00.h264"],
     "fighter/edge/result/c121": [],
     "fighter/edge/c122": [
       "effect/fighter/edge/ef_edge_c122.eff",
+      "fighter/edge/motion/body/c122/d00specialnwalk.nuanmb",
       "fighter/edge/model/apple/c122/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c122/dark_model.numatb",
       "fighter/edge/model/apple/c122/light_model.numatb",
@@ -58323,12 +57974,12 @@
       "camera/fighter/edge/c122/j02win2.nuanmb",
       "camera/fighter/edge/c122/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c122": [
-      "prebuilt:/movie/fighter/edge/c122/final_00.h264"
-    ],
+    "fighter/edge/movie/c122": ["prebuilt:/movie/fighter/edge/c122/final_00.h264"],
     "fighter/edge/result/c122": [],
     "fighter/edge/c123": [
       "effect/fighter/edge/ef_edge_c123.eff",
+      "fighter/edge/motion/body/c123/d00specialnwalk.nuanmb",
+
       "fighter/edge/model/apple/c123/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c123/dark_model.numatb",
       "fighter/edge/model/apple/c123/light_model.numatb",
@@ -58904,12 +58555,11 @@
       "camera/fighter/edge/c123/j02win2.nuanmb",
       "camera/fighter/edge/c123/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c123": [
-      "prebuilt:/movie/fighter/edge/c123/final_00.h264"
-    ],
+    "fighter/edge/movie/c123": ["prebuilt:/movie/fighter/edge/c123/final_00.h264"],
     "fighter/edge/result/c123": [],
     "fighter/edge/c124": [
       "effect/fighter/edge/ef_edge_c124.eff",
+      "fighter/edge/motion/body/c124/d00specialnwalk.nuanmb",
       "fighter/edge/model/apple/c124/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c124/dark_model.numatb",
       "fighter/edge/model/apple/c124/light_model.numatb",
@@ -59485,12 +59135,11 @@
       "camera/fighter/edge/c124/j02win2.nuanmb",
       "camera/fighter/edge/c124/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c124": [
-      "prebuilt:/movie/fighter/edge/c124/final_00.h264"
-    ],
+    "fighter/edge/movie/c124": ["prebuilt:/movie/fighter/edge/c124/final_00.h264"],
     "fighter/edge/result/c124": [],
     "fighter/edge/c125": [
       "effect/fighter/edge/ef_edge_c125.eff",
+      "fighter/edge/motion/body/c125/d00specialnwalk.nuanmb",
       "fighter/edge/model/apple/c125/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c125/dark_model.numatb",
       "fighter/edge/model/apple/c125/light_model.numatb",
@@ -60066,12 +59715,11 @@
       "camera/fighter/edge/c125/j02win2.nuanmb",
       "camera/fighter/edge/c125/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c125": [
-      "prebuilt:/movie/fighter/edge/c125/final_00.h264"
-    ],
+    "fighter/edge/movie/c125": ["prebuilt:/movie/fighter/edge/c125/final_00.h264"],
     "fighter/edge/result/c125": [],
     "fighter/edge/c126": [
       "effect/fighter/edge/ef_edge_c126.eff",
+      "fighter/edge/motion/body/c126/d00specialnwalk.nuanmb",
       "fighter/edge/model/apple/c126/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c126/dark_model.numatb",
       "fighter/edge/model/apple/c126/light_model.numatb",
@@ -60647,12 +60295,11 @@
       "camera/fighter/edge/c126/j02win2.nuanmb",
       "camera/fighter/edge/c126/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c126": [
-      "prebuilt:/movie/fighter/edge/c126/final_00.h264"
-    ],
+    "fighter/edge/movie/c126": ["prebuilt:/movie/fighter/edge/c126/final_00.h264"],
     "fighter/edge/result/c126": [],
     "fighter/edge/c127": [
       "effect/fighter/edge/ef_edge_c127.eff",
+      "fighter/edge/motion/body/c127/d00specialnwalk.nuanmb",
       "fighter/edge/model/apple/c127/alp_edge_004b_col.nutexb",
       "fighter/edge/model/apple/c127/dark_model.numatb",
       "fighter/edge/model/apple/c127/light_model.numatb",
@@ -61228,9 +60875,7 @@
       "camera/fighter/edge/c127/j02win2.nuanmb",
       "camera/fighter/edge/c127/j02win3.nuanmb"
     ],
-    "fighter/edge/movie/c127": [
-      "prebuilt:/movie/fighter/edge/c127/final_00.h264"
-    ],
+    "fighter/edge/movie/c127": ["prebuilt:/movie/fighter/edge/c127/final_00.h264"],
     "fighter/edge/result/c127": [],
     "fighter/donkey/cmn/effect": [
       "effect/fighter/donkey/trail/tex_funky_sword2.nutexb",
@@ -77832,7 +77477,6 @@
       "sound/bank/fighter/se_murabito_c126.nus3bank"
     ],
 
-
     "fighter/pikmin/motion/body/c120/a02slide.nuanmb": [
       "fighter/pikmin/motion/body/c121/a02slide.nuanmb",
       "fighter/pikmin/motion/body/c122/a02slide.nuanmb",
@@ -89566,6 +89210,15 @@
       "fighter/edge/motion/body/c125/d00specialnstart.nuanmb",
       "fighter/edge/motion/body/c126/d00specialnstart.nuanmb",
       "fighter/edge/motion/body/c127/d00specialnstart.nuanmb"
+    ],
+    "fighter/edge/motion/body/c120/d00specialnwalk.nuanmb": [
+      "fighter/edge/motion/body/c121/d00specialnwalk.nuanmb",
+      "fighter/edge/motion/body/c122/d00specialnwalk.nuanmb",
+      "fighter/edge/motion/body/c123/d00specialnwalk.nuanmb",
+      "fighter/edge/motion/body/c124/d00specialnwalk.nuanmb",
+      "fighter/edge/motion/body/c125/d00specialnwalk.nuanmb",
+      "fighter/edge/motion/body/c126/d00specialnwalk.nuanmb",
+      "fighter/edge/motion/body/c127/d00specialnwalk.nuanmb"
     ],
     "fighter/edge/motion/body/c120/d01specialairs.nuanmb": [
       "fighter/edge/motion/body/c121/d01specialairs.nuanmb",
