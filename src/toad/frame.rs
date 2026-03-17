@@ -56,12 +56,12 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
 					};
 				};
 				if ItemModule::is_have_item(boma, 0) {
-					CAN_NEUTRALB[ENTRY_ID] = 1;
+					crate::transition_set!(ENTRY_ID, can_neutralb);
 				} else {
-					CAN_NEUTRALB[ENTRY_ID] = 0;
+					crate::transition_reset!(ENTRY_ID, can_neutralb);
 				};
 			} else {
-				CAN_NEUTRALB[ENTRY_ID] = 0;
+				crate::transition_reset!(ENTRY_ID, can_neutralb);
 			};
 		};*/
 		if is_reset() {
@@ -73,11 +73,19 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
 			BIG_TIMER[ENTRY_ID] = 1;
 		}
 		if (WorkModule::get_int(boma, *FIGHTER_INSTANCE_WORK_ID_INT_COLOR) >= 120 && WorkModule::get_int(boma, *FIGHTER_INSTANCE_WORK_ID_INT_COLOR) <= 127) && fighter_kind == *FIGHTER_KIND_MURABITO {
-			if PostureModule::scale(boma) == 1.0 {
-				PostureModule::set_scale(fighter.module_accessor, 0.7, false);
-                GrabModule::set_size_mul(boma, 0.7);
-				println!("set small");
-            }
+			if ![*FIGHTER_STATUS_KIND_WIN, *FIGHTER_STATUS_KIND_LOSE, *FIGHTER_STATUS_KIND_NONE].contains(&status_kind) {
+				if PostureModule::scale(boma) == 1.0 {
+					PostureModule::set_scale(fighter.module_accessor, 0.7, false);
+					GrabModule::set_size_mul(boma, 0.7);
+					println!("set small");
+				}
+			} else {
+				if PostureModule::scale(boma) != 0.85 {
+					PostureModule::set_scale(fighter.module_accessor, 0.85, false);
+					GrabModule::set_size_mul(boma, 0.85);
+					println!("set small2");
+				}
+			}
 			WorkModule::set_int(boma, 1, *FIGHTER_MURABITO_INSTANCE_WORK_ID_INT_SPECIAL_N_TIME_LIMIT);
 			if status_kind == *FIGHTER_STATUS_KIND_DEAD {
 				if MotionModule::motion_kind(boma) == hash40("fall_damage") && !HAS_DEADED[ENTRY_ID] {
@@ -209,7 +217,7 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
 					StatusModule::change_status_request_from_script(boma, *FIGHTER_STATUS_KIND_LANDING, true);
 				}
 				if AttackModule::is_infliction_status(boma, *COLLISION_KIND_MASK_HIT) && !AttackModule::is_infliction(boma, *COLLISION_KIND_MASK_HIT) && frame < 50.0{
-					macros::SET_SPEED_EX(fighter, SPEED_X[ENTRY_ID]*PostureModule::lr(boma), 1.0, *KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN);
+					macros::SET_SPEED_EX(fighter, get_speed_x(boma)*PostureModule::lr(boma), 1.0, *KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN);
 					MotionModule::change_motion(boma, smash::phx::Hash40::new("special_air_lw_water"), 51.0, 1.0, false, 0.0, false, false);
 				};
 				if frame > 5.0 && frame < 7.0{
@@ -298,9 +306,9 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
 				}
 			}
 			if ItemModule::is_have_item(boma, 0) {
-				CAN_NEUTRALB[ENTRY_ID] = 1;
+				crate::transition_set!(ENTRY_ID, can_neutralb);
 			} else {
-				CAN_NEUTRALB[ENTRY_ID] = 0;
+				crate::transition_reset!(ENTRY_ID, can_neutralb);
 			};
 			//ArticleModule::remove_exist(boma, *FIGHTER_MURABITO_GENERATE_ARTICLE_CLAYROCKET,smash::app::ArticleOperationTarget(*ARTICLE_OPE_TARGET_ALL));
 			ArticleModule::remove_exist(boma, *FIGHTER_MURABITO_GENERATE_ARTICLE_BALLOON,smash::app::ArticleOperationTarget(*ARTICLE_OPE_TARGET_ALL));
@@ -403,7 +411,7 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
 				}
 			}
 			if [*FIGHTER_STATUS_KIND_SPECIAL_S].contains(&status_kind) {
-				CAN_SIDEB[ENTRY_ID] = 1;
+				crate::transition_set!(ENTRY_ID, can_sideb);
 				if [hash40("special_s"), hash40("special_air_s")].contains(&motion_kind) {
 					if SIDEB_END[ENTRY_ID] {
 						if situation_kind == *SITUATION_KIND_GROUND {
@@ -418,7 +426,7 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
                     		macros::SET_SPEED_EX(fighter, 1.5, -2.0, *KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN);
 							SIDEB_DIR[ENTRY_ID] = PostureModule::lr(boma);
 						} else {
-                    		macros::SET_SPEED_EX(fighter, 1.5, PREV_SPEED_Y[ENTRY_ID], *KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN);
+                    		macros::SET_SPEED_EX(fighter, 1.5, get_prev_speed_y(boma), *KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN);
 							if PostureModule::lr(boma) != SIDEB_DIR[ENTRY_ID] {
 								PostureModule::reverse_lr(boma);
 								PostureModule::update_rot_y_lr(boma);
@@ -474,7 +482,7 @@ unsafe extern "C" fn toad(fighter : &mut L2CFighterCommon) {
 				SIDEB_RESET[ENTRY_ID] = false;
 			}
 			if situation_kind != *SITUATION_KIND_AIR || (*FIGHTER_STATUS_KIND_DAMAGE..*FIGHTER_STATUS_KIND_DAMAGE_FALL).contains(&status_kind){ 
-				CAN_SIDEB[ENTRY_ID] = 0;
+				crate::transition_reset!(ENTRY_ID, can_sideb);
 			}
 			if [*FIGHTER_MURABITO_STATUS_KIND_SPECIAL_S_JUMP].contains(&status_kind) {
 				KineticModule::suspend_energy(boma, *FIGHTER_KINETIC_ENERGY_ID_CONTROL);
@@ -531,7 +539,7 @@ unsafe extern "C" fn agent_reset(fighter: &mut L2CFighterCommon) {
 
 pub fn install() {
     Agent::new("murabito")
-    .set_costume([120, 121, 122, 123, 124, 125, 126, 127].to_vec())
+    .set_costume(get_marked_costumes("murabito","toad"))
 		.on_start(agent_reset)
         .on_line(Main, toad)
         .install();

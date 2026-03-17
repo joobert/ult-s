@@ -1,4 +1,4 @@
-#![feature(concat_idents)]
+
 #![feature(proc_macro_hygiene)]
 #![feature(asm)]
 #![allow(unused_imports)]
@@ -25,6 +25,10 @@ use skyline::nro::{self, NroInfo};
 use smash::params::add_hook;
 use std::sync::atomic::{AtomicBool, Ordering};
 use skyline::hooks::InlineCtx;
+
+mod state_manager;
+mod s_macros;
+
 
 unsafe fn calc_nnsdk_offset() -> u64 {
     let mut symbol = 0usize;
@@ -120,7 +124,8 @@ pub extern "C" fn main() {
             allow_ui_chara_hash_online(smash::hash40("ui_chara_peppy")); //peppy
         }
     }
-
+    
+    println!("about to install scripts");
 	util::install();
 
     rayman::install();

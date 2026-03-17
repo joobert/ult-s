@@ -1,0 +1,156 @@
+use smash::app::lua_bind::*;
+use smash::lib::lua_const::*;
+use smash::app::utility::get_kind;
+use smash::hash40;
+use smash::lua2cpp::*;
+use smashline::*;
+use smash_script::*;
+use smash::phx::*;
+use smash::lib::{L2CValue, L2CAgent};
+use smash::phx::Vector2f;
+use crate::util::*;
+use smash::app::sv_math;
+
+#[derive(Default, Clone, Copy)]
+pub struct GamemodeAttacksState {
+	pub critical_frame : i32,
+	pub do_critical : bool,
+}
+
+pub unsafe fn critical_opff(fighter: &mut L2CFighterCommon, ENTRY_ID : usize) {
+    if !is_gamemode("critical".to_string()) {
+        return;
+    }
+    if crate::get_state!(ENTRY_ID, GamemodeAttacksState).do_critical {
+        if AttackModule::is_infliction_status(fighter.module_accessor, *COLLISION_KIND_MASK_HIT) {
+            crate::with_state!(ENTRY_ID, GamemodeAttacksState, state, {
+                state.critical_frame += 1;
+            });
+            if crate::get_state!(ENTRY_ID, GamemodeAttacksState).critical_frame < 2 {
+                SlowModule::set_whole(fighter.module_accessor, 8, 80);
+                macros::CAM_ZOOM_IN_arg5(fighter, /*frames*/ 2.0,/*no*/ 0.0,/*zoom*/ 1.8,/*yrot*/ 0.0,/*xrot*/ 0.0);
+                EffectModule::req_follow(fighter.module_accessor, Hash40::new("sys_bg_criticalhit"), Hash40::new("top"), &Vector3f{x: 0.0, y: 0.0, z: 0.0} as *const Vector3f, &Vector3f{x: 0.0, y: 0.0, z: 0.0} as *const Vector3f, 1.0, false, 0, 0, 0, 0, 0, false, false);
+                macros::PLAY_SE(fighter, Hash40::new("se_common_criticalhit"));
+                macros::QUAKE(fighter, *CAMERA_QUAKE_KIND_XL);
+            }
+            if crate::get_state!(ENTRY_ID, GamemodeAttacksState).critical_frame >= 6 {
+                SlowModule::clear_whole(fighter.module_accessor);
+                CameraModule::reset_all(fighter.module_accessor);
+                EffectModule::kill_kind(fighter.module_accessor, Hash40::new("sys_bg_criticalhit"), false, false);
+                macros::CAM_ZOOM_OUT(fighter);
+                crate::with_state!(ENTRY_ID, GamemodeAttacksState, state, {
+                    state.do_critical = false;
+                });
+            }
+        } else {
+            if crate::get_state!(ENTRY_ID, GamemodeAttacksState).critical_frame > 0 {
+                SlowModule::clear_whole(fighter.module_accessor);
+                CameraModule::reset_all(fighter.module_accessor);
+                EffectModule::kill_kind(fighter.module_accessor, Hash40::new("sys_bg_criticalhit"), false, false);
+                macros::CAM_ZOOM_OUT(fighter);
+                crate::with_state!(ENTRY_ID, GamemodeAttacksState, state, {
+                    state.do_critical = false;
+                });
+            }
+        }
+    } else {
+        if crate::get_state!(ENTRY_ID, GamemodeAttacksState).critical_frame > 0 {
+            SlowModule::clear_whole(fighter.module_accessor);
+            CameraModule::reset_all(fighter.module_accessor);
+            EffectModule::kill_kind(fighter.module_accessor, Hash40::new("sys_bg_criticalhit"), false, false);
+            macros::CAM_ZOOM_OUT(fighter);
+            crate::with_state!(ENTRY_ID, GamemodeAttacksState, state, {
+                state.do_critical = false;
+            });
+        }
+        crate::with_state!(ENTRY_ID, GamemodeAttacksState, state, {
+            state.critical_frame = 0;
+        });
+    }
+}	
+#[skyline::hook(replace = smash::app::sv_animcmd::ATTACK)]
+unsafe fn attack_replace(lua_state: u64) {
+    let mut l2c_agent = L2CAgent::new(lua_state);
+
+    let boma = smash::app::sv_system::battle_object_module_accessor(lua_state);
+    let mut ENTRY_ID = 0;
+    if smash::app::utility::get_category(boma) == *BATTLE_OBJECT_CATEGORY_FIGHTER {
+	    ENTRY_ID = WorkModule::get_int(boma, *FIGHTER_INSTANCE_WORK_ID_INT_ENTRY_ID) as usize;
+    }
+    let mut effs = 0;
+    let mut critical = 0;
+    if is_gamemode("effects".to_string()) {
+        effs = sv_math::rand(hash40("fighter"), 13);
+    }
+    if is_gamemode("critical".to_string()) {
+        critical = sv_math::rand(hash40("fighter"), 14);
+        if smash::app::utility::get_category(boma) == *BATTLE_OBJECT_CATEGORY_FIGHTER && critical == 7{
+            crate::with_state!(ENTRY_ID, GamemodeAttacksState, state, {
+                state.do_critical = true;
+            });
+        }
+    }
+    let mut hitbox_params: Vec<L2CValue> = (0..36).map(|i| l2c_agent.pop_lua_stack(i + 1)).collect();
+    l2c_agent.clear_lua_stack();
+    for (i, x) in hitbox_params.iter_mut().enumerate().take(36) {
+        if i == 3 && is_gamemode("critical".to_string()) && crate::get_state!(ENTRY_ID, GamemodeAttacksState).do_critical {
+            if x.get_num() < 2.5 {
+                //println!("damage is too low! {}%", x.get_num());
+                l2c_agent.push_lua_stack(x);
+            } else {
+                //println!("damage new : {}", x.get_num() * 2.0);
+                l2c_agent.push_lua_stack(&mut L2CValue::new_num(x.get_num() * 2.0));
+            }
+        } else if i == 4 && is_gamemode("angles".to_string()) {
+            l2c_agent.push_lua_stack(&mut L2CValue::new_num(sv_math::rand(hash40("fighter"), 361) as f32));
+        } else if i == 32 && is_gamemode("effects".to_string()) {
+            l2c_agent.push_lua_stack(&mut L2CValue::new_hash(get_effect(effs)));
+        } else if i == 34 && is_gamemode("effects".to_string()) {
+            l2c_agent.push_lua_stack(&mut L2CValue::new_int(get_sfx(effs) as u64));
+        } else if i == 15 && is_gamemode("critical".to_string()) &&  crate::get_state!(ENTRY_ID, GamemodeAttacksState).do_critical {
+            l2c_agent.push_lua_stack(&mut L2CValue::new_num(x.get_num() * 2.0));
+        }else {
+            l2c_agent.push_lua_stack(x);
+        }
+    }
+    original!()(lua_state);
+}
+
+#[inline]
+unsafe fn get_effect(val: i32) -> u64 {
+    match val {
+        0 => hash40("collision_attr_fire"),
+        1 => hash40("collision_attr_bury"),
+        2 => hash40("collision_attr_elec"),
+        3 => hash40("collision_attr_coin"),
+        4 => hash40("collision_attr_paralyze"),
+        5 => hash40("collision_attr_sleep"),
+        6 => hash40("collision_attr_turn"),
+        7 => hash40("collision_attr_flower"),
+        8 => hash40("collision_attr_ice"),
+        9 => hash40("collision_attr_aura"),
+        10 => hash40("collision_attr_magic"),
+        _ => hash40("collision_attr_normal")
+    }
+}
+
+#[inline]
+unsafe fn get_sfx(val: i32) -> i32 {
+    match val {
+        0 => *COLLISION_SOUND_ATTR_FIRE,
+        1 => *COLLISION_SOUND_ATTR_HEAVY,
+        2 => *COLLISION_SOUND_ATTR_ELEC,
+        3 => *COLLISION_SOUND_ATTR_COIN,
+        4 => *COLLISION_SOUND_ATTR_ELEC,
+        5 => *COLLISION_SOUND_ATTR_MAGIC,
+        6 => *COLLISION_SOUND_ATTR_SLAP,
+        7 => *COLLISION_SOUND_ATTR_MAGIC,
+        8 => *COLLISION_SOUND_ATTR_FREEZE,
+        9 => *COLLISION_SOUND_ATTR_FIRE,
+        10 => *COLLISION_SOUND_ATTR_MAGIC,
+        _ => *COLLISION_SOUND_ATTR_PUNCH
+    }
+}
+pub fn install() {
+    skyline::install_hooks!(attack_replace);
+}
